@@ -1,0 +1,114 @@
+*{
+    box-sizing:border-box
+}
+html{
+    font-size: calc(1em + 1vw);
+}
+body{
+    background-color:rgb(122, 122, 122);
+    
+    font-family:Arial, Helvetica, sans-serif 
+}
+/*CSS for header og nav*/
+
+header{
+     text-align:center;
+     background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4b/Cumulus_clouds_seen_from_10%2C000_meters_above_the_ground%2C_2010.jpg);
+     background-size:cover;
+     padding: 0 0 1rem 0;
+
+}
+
+header nav ul{
+    margin: 1rem 0 0 0;
+    padding: 0; 
+}
+
+header nav span a{
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+nav a {
+    text-decoration:none;
+    color:black;
+padding: 1rem ;
+display: inline-block;
+
+}
+main{
+    text-align:center;
+
+}
+
+main section h2{
+    margin:2rem 0;
+}
+
+article{ 
+    max-width: 400px;
+    min-width: 250px;
+    width: 100%;
+    margin: 1rem auto;
+    background-color: #fff;
+}  
+
+main section article img{
+    width: 100%;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+
+h3{
+    font-size: 1.6rem;
+}
+
+p{
+    font-size: 1.4rem;
+    margin: 15px;
+
+}
+
+.read-more-btn{
+    background-color:rgb(36, 34, 34);
+    color:#fff;
+    display:inline-block;
+    padding: 1rem;
+    text-decoration: none;
+    margin: 0.5rem
+
+}
+
+#about-section{
+    text-align: center;
+    padding: 2rem 0     ;
+}
+
+#about-section p{
+    text-align: justify;
+}
+
+#pynt{
+    background-image: url(https://img.freepik.com/free-photo/burning-forest-spooky-mystery-inferno-flames-generative-ai_188544-31820.jpg?t=st=1695195634~exp=1695199234~hmac=f9b4225ef339b095411f5868ee523084f62b436b24fcf8a2956e4196023a126b&w=996);
+    height: 300px;
+    padding: 2rem;
+
+}
+
+#subscribe{
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#subscribe form label, #subscribe form input{
+    display:block;
+    margin: 0 auto;
+}
+
